@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewFlipper</string>
+
+    <string name="title">ViewFlipper使用详解</string>
+    <string name="loading">正在加载中，请稍后...</string>
+    <string name="method_one">方法一</string>
+    <string name="method_two">方法二</string>
+</resources>

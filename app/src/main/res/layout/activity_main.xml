@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.wiggins.viewflipper.widget.TitleView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_method_one"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="@string/method_one"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+
+    <Button
+        android:id="@+id/btn_method_two"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height_normal"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/btn_blue_selector"
+        android:text="@string/method_two"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_normal" />
+</LinearLayout>
